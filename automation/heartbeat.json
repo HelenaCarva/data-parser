@@ -1,0 +1,31 @@
+{
+  "serviceName": "data-parser",
+  "version": "1.2.3",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "status": "healthy",
+  "dependencies": {
+    "database": {
+      "status": "connected",
+      "responseTimeMs": 15
+    },
+    "messageQueue": {
+      "status": "active",
+      "messagesPending": 0
+    }
+  },
+  "metrics": {
+    "cpuUsage": 0.25,
+    "memoryUsage": 0.60,
+    "requestsPerSecond": 120
+  },
+  "environment": {
+    "hostname": "data-parser-node-01",
+    "os": "Linux",
+    "architecture": "x86_64"
+  },
+  "customProperties": {
+    "dataIngestionRate": "1000 records/min",
+    "lastSuccessfulParseTime": "2024-10-27T09:59:55Z"
+  },
+  "alerts": []
+}
